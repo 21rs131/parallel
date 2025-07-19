@@ -21,7 +21,7 @@ def main(total_cnt):
     print(f"Total elapsed time: {elapsed:.9f} seconds")
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 2:
+    if len(sys.argv) > 1:
         total = int(sys.argv[1])
     else:
         total = 1_000_000_000
